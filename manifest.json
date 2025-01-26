@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Route Checker Extension",
+    "version": "1.0",
+    "description": "Procura rotas em links e iframes com filtro de domínio",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
